@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
