@@ -3,7 +3,6 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 a {
@@ -17,6 +16,7 @@ ul {
     margin: 0px;
     padding: 0px;
     gap: 20px;
+    display: flex;
 }
 
 button {
@@ -37,6 +37,7 @@ button {
     font-size: 48px;
     font-weight: bolder;
 }
+
 .headersubtext{
     font-size: 18px;
     color: #E5E7EB;
@@ -45,15 +46,20 @@ button {
 .header{
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 1% 15%;
-}
-
-.topbar, .rightlinks{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: space-between;
 }
 
+.topbar{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.introcontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 
