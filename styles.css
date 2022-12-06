@@ -33,33 +33,23 @@ button {
     color:#F9FAF8;
 }
 
-.headermaintext{
+.header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.heromaintext{
     font-size: 48px;
     font-weight: bolder;
 }
 
-.headersubtext{
+.herosubtext{
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.header{
-    background-color: #1F2937;
-    color: #F9FAF8;
-    display: flex;
-    flex-direction: column;
-    align-items: space-between;
-}
 
-.topbar{
-    display: flex;
-    justify-content: space-evenly;
-}
 
-.introcontainer{
-    display: flex;
-    justify-content: space-evenly;
-}
 
 
 
