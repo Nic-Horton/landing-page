@@ -23,19 +23,23 @@ button {
     background-color: #3882F6;
     color: white;
     border-radius: 8px;
-    padding: 5px 20px;
+    padding: 10px 40px;
     border: none;
     font-weight:bold ;
+    margin-top: 10px;
 }
 
 .logo{
     font-size: 24px;
+    font-weight: bold;
     color:#F9FAF8;
 }
 
 .header{
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 0 200px 100px;
+    
 }
 
 .heromaintext{
@@ -48,8 +52,28 @@ button {
     color: #E5E7EB;
 }
 
+.navbar{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:100px
+}
 
+.herolayer {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
 
+.herotext{
+    flex-direction:column;
+    flex: 0 1 420px;
+}
+.image{
+    background-color: grey;
+    width: 500px;
+    height: 250px;
+}
 
 
 
