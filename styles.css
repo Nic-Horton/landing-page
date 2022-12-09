@@ -90,6 +90,9 @@ button {
     border-color: #3882F6;   
     border-radius: 20px;
 }
+.layertwo{
+    padding-bottom: 100px;
+}
 
 .layertwo div{
     display: flex;
@@ -106,6 +109,6 @@ button {
 }
 
 
-/*.testimonial {
+.testimonial {
     background-color: #E5E7EB;
-}*/
+}
