@@ -27,6 +27,7 @@ button {
     border: none;
     font-weight:bold ;
     margin-top: 10px;
+    font-size: large;
 }
 
 .logo{
@@ -97,6 +98,7 @@ button {
 .layertwo div{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .cards{
@@ -116,7 +118,7 @@ button {
 }
 
 .quotee {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bolder;
     display: flex;
     justify-content: end;
@@ -126,8 +128,39 @@ button {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 150px 300px;
+    padding: 100px 300px;
     
 }
 
- 
+.botbutton {
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+}
+
+.layerfour {
+    padding: 100px 200px;
+}
+
+.banner {
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.action{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.bannertext{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
