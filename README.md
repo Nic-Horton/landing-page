@@ -1,2 +1,2 @@
 # landing-page
-I will be creating a landing page while utilizing flex box.
+This project was done to explore the use of flexbox as well as many basic skills in css and html. The goal is to implement a landing page using flexbox to organize my page accordingly. 
